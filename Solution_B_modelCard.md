@@ -5,11 +5,11 @@ language: en
 license: cc-by-4.0
 tags:
 - text-classification
-repo: https://github.com/username/project_name
+repo: https://github.com/liruochenshuiage/NLI_SolutionB
 
 ---
 
-# Model Card for q36172hw-m95082rl-NLI-solutionB
+# Model Card for q36172hw-m95082rl-NLI-SolutionB
 
 
 This is a classification model that was trained to
@@ -132,3 +132,5 @@ The model hyperparameters were selected through grid search
       over a range of embedding dimensions, LSTM units, and dropout rates. 
       Each combination was evaluated based on weighted F1 score on the development set. 
       The best-performing model used an embedding dimension of 200, 128 LSTM units, and a dropout rate of 0.3.
+
+Model URL：https://drive.google.com/file/d/177nzy7mqlgnjNIy7yFzi1JcmTpph8fLe/view?usp=sharing
